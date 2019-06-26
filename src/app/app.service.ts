@@ -9,8 +9,8 @@ export class OktaAuthService {
 
   oktaAuth = new OktaAuth({
     url: 'https://dev-256664.okta.com',
-    clientId: '0oaru0slsmeHHBU3P356',
-    issuer: 'https://dev-256664.okta.com/oauth2/{authServerId}',
+    clientId: '{clientId}',
+    issuer: 'https://dev-256664.okta.com/oauth2/default',
     redirectUri: 'http://localhost:4200/callback',
     headers:{
         'Access-Control-Allow-Origin': '*',
